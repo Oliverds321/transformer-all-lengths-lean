@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Guaranteed behaviour of a small trained transformer at every input length: a machine-checked proof of concept"
+type: software
+authors:
+  - family-names: "D'Souza"
+    given-names: "Oliver"
+repository-code: "https://github.com/Oliverds321/transformer-all-lengths-lean"
+license: Apache-2.0
+version: "1.0.0"
+date-released: 2026-11-15

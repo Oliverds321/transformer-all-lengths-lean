@@ -1,0 +1,18 @@
+Guaranteed behaviour of a small trained transformer at every input length: a
+machine-checked proof of concept. Lean 4 proofs, certificates, code and manuscript
+Copyright 2026 Oliver D'Souza
+
+Code in this repository (Lean sources, Python programs, shell scripts) and the
+trained checkpoints are licensed under the Apache License, Version 2.0 (LICENSE).
+The manuscript, its LaTeX source and its figure in paper/ are licensed under
+Creative Commons Attribution 4.0 International (paper/LICENSE.md); the Apache
+License does not apply to them.
+
+Dependencies used but not redistributed
+---------------------------------------
+
+Lean 4 (Apache License 2.0), https://github.com/leanprover/lean4, toolchain 4.35.0.
+Mathlib (Apache License 2.0), https://github.com/leanprover-community/mathlib4,
+  release v4.35.0, with its dependencies at the revisions pinned in
+  lean/lake-manifest.json.
+Python packages (each under its own licence): PyTorch, NumPy, matplotlib.

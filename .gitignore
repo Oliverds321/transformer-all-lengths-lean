@@ -1,0 +1,9 @@
+.lake/
+__pycache__/
+*.pyc
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
